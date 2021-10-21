@@ -1,0 +1,21 @@
+{
+  "name": "example-minimal",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "rimraf -rf ./public && gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^2.24.63",
+    "gatsby-plugin-react-redux": "^1.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
